@@ -452,3 +452,50 @@ body.light-theme {
 .trending-news-box:hover .article-title {
   color: var(--light-color-alt);
 }
+
+/* Quick read */
+
+.section-title {
+  position: relative;
+  font-size: var(--font-size-md);
+  margin-bottom: 6rem;
+}
+
+.section-title::before {
+  content: attr(data-name);
+  font-size: var(--font-size-lg);
+  text-transform: uppercase;
+  opacity: .1;
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+}
+
+.article.swiper-slide {
+  height: 40rem;
+}
+
+/* Quick read - swiper */
+
+.swiper-wrapper {
+  height: auto;
+}
+
+.swiper-control {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: var(--secondary-background-color);
+}
+
+.swiper-control::after {
+  font-size: 1.5rem;
+  color: var(--light-color);
+}
+
+.swiper-pagination {
+  bottom: 0.5rem !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--light-color);
+}
