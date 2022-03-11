@@ -543,3 +543,31 @@ body.light-theme {
   transform: translateX(.5rem);
 }
 
+/* Popular tags */
+
+.popular-tags-container {
+  gap: var(--gap);
+}
+
+.popular-tags-container .article {
+  min-height: var(--item-min-height-sm);
+  overflow: hidden;
+}
+
+.tag-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--transparent-dark-color);
+  padding: 1rem 2rem;
+  z-index: 10;
+}
+
+.popular-tags-container .article:hover .tag-name {
+  color: var(--light-color);
+}
+
+.popular-tags-container .article:hover .article-img{
+  transform: scale(1.05);
+}
