@@ -29,4 +29,4 @@ Você pode reportat problemas ou sugestões na seção <a href="https://github.c
  <sub>Emanoel Antonio 👨🏻‍💻</sub>
 
  ##### " To be continue... " 
- <a href="https://www.linkedin.com/in/emanoel-antonio-silva/"><img align="center" src="https://img.shields.io/static/v1?label=&message=Linkedin&color=3D008A&style=for-the-badge&logo=linkedin"/></a>
+ <a href="https://www.linkedin.com/in/emanoel-antonio-silva/"><img align-items="center" src="https://img.shields.io/static/v1?label=&message=Linkedin&color=3D008A&style=for-the-badge&logo=linkedin"/></a>
